@@ -11,12 +11,10 @@ for i in range(7):
             full_domino.append([i, j])
 # 2. split domino pieces
 random.shuffle(full_domino)
-print(full_domino)
 stock_pieces = full_domino[0:13]
-#print(stock_pieces)
 computer_pieces = full_domino[14:21]
 player_pieces = full_domino[22:29]
 
 # 3. determine starting piece and first player
-#for i in range(7):
-    #if stock_pieces[i][i] == stock_pieces[i][i+1]:
+if doubles_set in computer_pieces:
+elif doubles_set in
